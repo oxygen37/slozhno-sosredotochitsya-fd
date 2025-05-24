@@ -7,12 +7,15 @@
   --main-font-size: 18px;
   --main-title-font-size: 157px;
   --main-font-weight: 400;
+  --accent-font-weight: 800;
   --color-theme-toggler: #FF0070; 
+  --color-marker-element: #FF0070;
   --color-title-text: #DB00FF;
-  --color-title-footer: #DB00FF;
   --color-main-text: #F1B2CE;
-  --color-accent--text: #FF0070;
+  --color-accent-text: #FF0070;
   --color-secondary-text: #000028;
   --color-fallback-bg: #000028;
+  --color-border: #FF0070;
+  --color-box-shadow: #FF0070;
   --image-bg-page: url(../images/cover-image-dark.png);
 }
