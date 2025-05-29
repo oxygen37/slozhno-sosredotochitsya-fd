@@ -1,0 +1,138 @@
+@media (width < 1024px) {
+  .header {
+    margin-block-end: 59px;
+  }
+
+  .header__theme-menu {
+    align-self: center;
+  }
+
+  .header__theme-menu-list {
+    grid-template-columns: 1fr;
+    justify-self: end;
+  }
+
+  .header__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header__description {
+    inline-size: 50%;
+  }
+
+  .content {
+    margin-inline: 1em;
+  }
+
+  .section__horizontal {
+    gap: 20px;
+  }
+
+  .section__vertical .questions-title {
+    max-inline-size: 30%;
+  }
+
+  .answer__vertical-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .footer__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
+
+@media (width < 768px) {
+  .header {
+    margin-block-end: 40px;
+    padding: 10px;
+  }
+
+  .header__marker  {
+    top: 10px;
+    right: 40px;
+  }
+
+  .header__marker::after {
+    top: 8px;
+    right: -21px;
+  }
+
+  .decorated-zone::after {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .decorated-zone::before {
+    top: 10px;
+    right: 10px;
+  }
+
+  .header__title {
+    margin-inline-start: 0;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+
+  .header__description {
+    inline-size: 100%;
+  }
+
+  .content {
+    margin-inline: 10px;
+  }
+
+  .section__horizontal {
+    grid-template-columns: 1fr;
+    margin-block-end: 49px;
+  }
+
+  .section__vertical {
+    margin-block-end: 50px;
+  }
+
+  .section__vertical .questions-title {
+    max-inline-size: 100%;
+  }
+
+  .section__gallery {
+    margin-block-end: 40px;
+  }
+
+  .gallery-title {
+    margin-block-end: 10px;
+  }
+  
+  .gallery__list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .gallery__item:nth-child(1) {
+    grid-column: 1;
+  }
+  
+  .gallery__item:nth-child(2) {
+    grid-row: 2;
+  }
+  
+  .gallery__item:nth-child(3) {
+    grid-column: auto;
+  }
+  
+  .gallery__item:nth-child(4) {
+    grid-column: auto;
+  }
+  
+  .gallery__item:nth-child(5) {
+    grid-row: 3;
+  }
+  
+  .footer {
+    padding-inline: 0px;
+  }
+
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+}

@@ -2,3 +2,22 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --main-font-family: 'IBM Plex mono';
+  --main-font-size: 18px;
+  --main-font-weight: 400;
+  --accent-font-weight: 800;
+  --color-theme-toggler: #FF0070;
+  --color-marker-element: #FF0070;
+  --color-title-text: #DB00FF;
+  --color-main-text: #F1B2CE;
+  --color-accent-text: #FF0070;
+  --color-secondary-text: #000028;
+  --color-secondary-title: #FF0070;
+  --color-button-hover: rgba(255, 0, 112, 0.4);
+  --color-bg: #000028;
+  --color-border-link: #F1B2CE;
+  --color-border: #FF0070;
+  --color-box-shadow: #FF0070;
+  --image-bg-page: url(../images/cover-image-dark.png);
+}
